@@ -3,7 +3,7 @@
 ## How to contribute
 
 ### Add fred as a remote
-Do this once if you do not see fred in the list when you do `remote -v`:
+Do this once if you do not see fred in the list when you do `git remote -v`:
 ```
 git remote add fred https://github.com/fredericpoitevin/cryoem-analysis-tools
 ```
