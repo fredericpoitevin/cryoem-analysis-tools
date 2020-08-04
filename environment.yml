@@ -1,0 +1,9 @@
+name: cryotools
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - jupyter
+  - scikit-learn
+  - numpy
+  - matplotlib
