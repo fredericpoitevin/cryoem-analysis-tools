@@ -19,9 +19,9 @@ There are two ways to prepare the environment on your system before using this p
 
 ### First Approach
 ```
-conda create -n cryotools python=3.8
+conda create -n cryotools python=3.8      #This line creates a new environment called "cryotools" and install Python 3.8
 conda activate cryotools
-conda install jupyter scikit-learn numpy matplotlib
+conda install jupyter scikit-learn numpy matplotlib     #This line installs necessary packages
 ```
 ### Second Approach
 First create the following `environment.yml` file:
@@ -36,5 +36,5 @@ dependencies:
   - numpy
   - matplotlib
 ```
-then create the environment with:
+then create the environment from the text file with:
 `conda env create -f environment.yml`
