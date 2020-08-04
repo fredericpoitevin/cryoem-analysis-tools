@@ -37,4 +37,4 @@ dependencies:
   - matplotlib
 ```
 then create the environment from the text file with:
-`conda env create -f environment.yml`
+`conda env create -f environment.yml`.
